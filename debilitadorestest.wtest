@@ -1,0 +1,21 @@
+import alquimistas.*
+
+describe "Debilitadores Test"{
+
+	test "Los Debilitadores son efectivos?" {
+		debilitadores.agregarMaterial(debilitadores)
+		assert.that(debilitadores.efectivo())
+
+}
+
+	test "La capacidad de los debilitadores con materiales es..."{
+		
+		debilitadores.agregarMaterial(debilitadores)
+		assert.equals(12,debilitadores.capacidad())
+	}
+	test "La capacidad de los debilitadores sin materiales es..."{
+		
+		assert.equals(5,debilitadores.capacidad())
+	}
+	
+}

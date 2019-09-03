@@ -1,0 +1,13 @@
+import alquimistas.*
+
+describe "Bomba Test"{
+
+	test "La bomba es efectiva?" {
+		assert.that(bomba.efectivo())
+
+}
+	test "La capacidad de la bomba es ..."{
+		assert.equals(50.5,bomba.capacidad())
+	}
+
+}
